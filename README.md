@@ -1,7 +1,7 @@
 # WorldVQA
 ## WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models
 
-[<img src="images/kimi_small.png" width="16" height="16" style="vertical-align: middle;"> HomePage](https://worldvqa2026.github.io/WorldVQA/) | [🤗 Dataset](https://huggingface.co/datasets/moonshotai/WorldVQA) | [<img src="images/arxiv_small.svg" width="16" height="16" style="vertical-align: middle;"> Paper](https://github.com/MoonshotAI/WorldVQA/blob/master/paper/worldvqa.pdf) | [<img src="images/github_small.svg" width="16" height="16" style="vertical-align: middle;"> Code](https://github.com/MoonshotAI/WorldVQA/)
+[<img src="images/kimi_small.png" width="16" height="16" style="vertical-align: middle;"> HomePage](https://worldvqa2026.github.io/WorldVQA/) | [🤗 Dataset](https://huggingface.co/datasets/moonshotai/WorldVQA) | [<img src="images/arxiv_small.svg" width="16" height="16" style="vertical-align: middle;"> Paper](https://arxiv.org/abs/2602.02537v1) | [<img src="images/github_small.svg" width="16" height="16" style="vertical-align: middle;"> Code](https://github.com/MoonshotAI/WorldVQA/)
 
 
 ![alt text](images/barchart.png)
@@ -85,10 +85,13 @@ The leaderboard below shows the overall performance on WorldVQA (first 8 categor
 If you find WorldVQA useful for your research, please cite our work:
 
 ```bibtex
-@misc{worldvqa2025,
-  title={WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models},
-  author={MoonshotAI},
-  year={2025},
-  howpublished={\url{https://github.com/MoonshotAI/WorldVQA}},
+@misc{zhou2026worldvqameasuringatomicworld,
+      title={WorldVQA: Measuring Atomic World Knowledge in Multimodal Large Language Models}, 
+      author={Runjie Zhou and Youbo Shao and Haoyu Lu and Bowei Xing and Tongtong Bai and Yujie Chen and Jie Zhao and Lin Sui and Haotian Yao and Zijia Zhao and Hao Yang and Haoning Wu and Zaida Zhou and Jinguo Zhu and Zhiqi Huang and Yiping Bao and Yangyang Liu and Y. Charles and Xinyu Zhou},
+      year={2026},
+      eprint={2602.02537},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.02537}, 
 }
 ```
